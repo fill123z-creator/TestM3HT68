@@ -1,0 +1,5 @@
+{
+  "name": "CareerGuidance-Persistent",
+  "description": "ระบบแนะแนวอาชีพนักเรียนมัธยม พร้อมระบบจัดเก็บข้อมูลรายชื่อนักเรียนและผลการประเมินถาวรในเบราว์เซอร์",
+  "requestFramePermissions": []
+}

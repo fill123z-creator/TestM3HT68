@@ -6,7 +6,6 @@ export interface StudentInfo {
   class: string;
 }
 
-// Fix: Added CodeAnalysis interface to resolve "Module '"../types"' has no exported member 'CodeAnalysis'" error in geminiService.ts
 export interface CodeAnalysis {
   summary: string;
   bugs: string[];
@@ -28,4 +27,4 @@ export interface Assessment {
   dimensions?: any;
 }
 
-export type ViewState = 'home' | 'info' | 'customInfo' | 'select' | 'assessment' | 'results';
+export type ViewState = 'home' | 'info' | 'customInfo' | 'select' | 'assessment' | 'results' | 'sync';
